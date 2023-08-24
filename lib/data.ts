@@ -44,7 +44,7 @@ export const experiencesData = [
       "I graduated after studying at UPN Veteran Yogyakarta. I immediately found a job as a web developer",
     icon: React.createElement(LuGraduationCap),
     date: "Agust 2019",
-    linkCV: "https://drive.google.com/file/d/1iSYyELUp1CWZEj_Rm8U8hijZWI_1lP2k/view?usp=sharing"
+    linkCV: "https://drive.google.com/file/d/1mG8LSaSVqrQGZA19GUgj_o15_NtiZUDR/view?usp=sharing"
   },
   {
     title: "TELKOM INDONESIA (INTERN)",
