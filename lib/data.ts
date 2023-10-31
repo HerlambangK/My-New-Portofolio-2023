@@ -8,7 +8,6 @@ import Quizmify from "@/public/img/quizmify.png";
 import Niagaweb from "@/public/img/Niagaweb-studycase.png";
 import pokedex from "@/public/img/pokedex.png";
 
-
 export const links = [
   {
     name: "Home",
@@ -44,7 +43,8 @@ export const experiencesData = [
       "I graduated after studying at UPN Veteran Yogyakarta. I immediately found a job as a web developer",
     icon: React.createElement(LuGraduationCap),
     date: "Agust 2019",
-    linkCV: "https://drive.google.com/file/d/1mG8LSaSVqrQGZA19GUgj_o15_NtiZUDR/view?usp=sharing"
+    linkCV:
+      "https://drive.google.com/file/d/1mG8LSaSVqrQGZA19GUgj_o15_NtiZUDR/view?usp=sharing",
   },
   {
     title: "TELKOM INDONESIA (INTERN)",
@@ -62,7 +62,6 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2023",
     linkCV: "https://www.niagaweb.co.id/",
-
   },
   {
     title: "Graduated bootcamp Binnar",
@@ -77,8 +76,7 @@ export const experiencesData = [
   {
     title: "Lite Bites: Cara Mudah Membuat Website",
     location: "Niagahoster -Talks",
-    description:
-      "Talking about wordpress website",
+    description: "Talking about wordpress website",
     icon: React.createElement(BsMicFill),
     date: "11 April 2022",
   },
@@ -91,10 +89,10 @@ export const experiencesData = [
     date: "24 September 2021",
   },
   {
-    title: "Kelas WA 16.0 : Panduan Membuat Website Company Profile Menggunakan WordPress ",
+    title:
+      "Kelas WA 16.0 : Panduan Membuat Website Company Profile Menggunakan WordPress ",
     location: "Niagahoster",
-    description:
-      "Discussing websites utilized in a company profile context.",
+    description: "Discussing websites utilized in a company profile context.",
     icon: React.createElement(BsMicFill),
     date: "24 September 2021",
   },
@@ -125,14 +123,22 @@ export const projectsData = [
       "Quizmify is a quiz platform that offers a variety of questions",
     tags: ["Next Js", "TypeScript", "Prisma", "Tailwind", "ChatGPT", "Vercel"],
     imageUrl: Quizmify,
-    Github: " https://github.com/HerlambangK/pokedex",
+    Github: " https://github.com/HerlambangK/Quizymify",
     priview: "https://quizmify-herlambangk.vercel.app/",
   },
   {
     title: "Niagaweb",
     description:
       "Platform is a case study of creating an order system interface for users who want to easily customize and order a website.",
-    tags: ["Next Js", "TypeScript", "Prisma", "Tailwind", "ChatGPT", "Vercel", "Midtrans"],
+    tags: [
+      "Next Js",
+      "TypeScript",
+      "Prisma",
+      "Tailwind",
+      "ChatGPT",
+      "Vercel",
+      "Midtrans",
+    ],
     imageUrl: Niagaweb,
     Github: "https://github.com/HerlambangK/big-project",
     priview: "https://landing-page-niagaweb.vercel.app/",

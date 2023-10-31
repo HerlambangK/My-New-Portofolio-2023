@@ -8,7 +8,7 @@ import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
 import { LuEye } from "react-icons/lu";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = typeof projectsData[number];
 
 export default function Project({
   title,
@@ -16,7 +16,7 @@ export default function Project({
   tags,
   imageUrl,
   Github,
-  priview
+  priview,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -42,13 +42,12 @@ export default function Project({
             {description}
           </p>
 
-
           <div className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             <div className="flex items-center justify-between md:col-span-1">
               {Github ? (
                 <button
                   className="flex items-center h-[1.5rem] w-[5rem] md:w-[5rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65 "
-                  onClick={() => window.open(Github, '_blank')}
+                  onClick={() => window.open(Github, "_blank")}
                 >
                   <BsGithub className="mr-2 ml-2 h-3 w-3" />
                   <span className="text-[8px] md:text-[10px]">Github</span>
@@ -60,7 +59,7 @@ export default function Project({
               {priview ? (
                 <button
                   className="flex items-center h-[1.5rem] w-[5rem] md:w-[5rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65  "
-                  onClick={() => window.open(priview, '_blank')}
+                  onClick={() => window.open(priview, "_blank")}
                 >
                   <LuEye className="mr-2 ml-2 h-3 w-3" />
                   <span className="text-[8px] md:text-[10px]">Lihat</span>
